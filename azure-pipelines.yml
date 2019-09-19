@@ -23,3 +23,8 @@ steps:
   inputs:
     apkFiles: '**/*.apk'
     apksignerKeystoreFile: 'upload-keystore.jks'
+    apksignerKeystorePassword: $(KeyStorePass)
+    apksignerKeystoreAlias: 'upload'
+    apksignerKeyPassword: $(KeyPass)
+    apksignerFile: 'Vlissingen'
+    zipalignFile: 'Netherlands'
