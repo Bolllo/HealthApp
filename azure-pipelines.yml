@@ -27,4 +27,3 @@ steps:
     apksignerKeystoreAlias: 'upload'
     apksignerKeyPassword: $(KeyPass)
     apksignerFile: 'Vlissingen'
-    zipalignFile: 'Netherlands'
