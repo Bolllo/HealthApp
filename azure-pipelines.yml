@@ -19,6 +19,7 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug'
 
+
 - task: AndroidSigning@3
   inputs:
     apkFiles: '**/*.apk'
