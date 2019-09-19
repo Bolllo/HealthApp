@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-16.04'
+  vmImage: 'windows-latest'
 
 steps:
 - task: Gradle@2
@@ -27,3 +27,4 @@ steps:
     apksignerKeystoreAlias: 'upload'
     apksignerKeyPassword: '$(KeyPass)'
     zipalign: false
+
