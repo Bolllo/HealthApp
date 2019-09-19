@@ -29,3 +29,10 @@ steps:
     apksignerKeyPassword: '$(KeyPass)'
     zipalign: false
 
+- task: AppCenterDistribute@1
+  inputs:
+    serverEndpoint: 'App center'
+    appSlug: 'ever0035/HealthApp'
+    appFile: '**/app-debug.apk'
+    releaseNotesOption: 'input'
+    releaseNotesInput: 'rel'
