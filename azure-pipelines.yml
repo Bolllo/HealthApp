@@ -34,5 +34,6 @@ steps:
     serverEndpoint: 'App center'
     appSlug: 'ever0035/HealthApp'
     appFile: '**/app-debug.apk'
-    releaseNotesOption: 'file'
+    releaseNotesOption: 'input'
+    releaseNotesInput: '.'
     distributionGroupId: '6c809db3-8b8f-47a4-b7da-5c1111f5308f'
